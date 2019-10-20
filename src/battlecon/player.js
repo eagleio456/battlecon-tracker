@@ -147,7 +147,7 @@ export default function Player({currentTurn, dispatch, className, playerNbr}) {
                     +
                 </button>
             </div>
-            <label className="force">Current Force: {force}</label>
+            <label className="force">Force: {force}</label>
             <div className="action-container">
                 <button
                     type="button"

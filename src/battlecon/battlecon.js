@@ -4,6 +4,8 @@ import Player from './player';
 import './battlecon.css';
 import Timer from './timer';
 
+// import './fontawesome.css';
+
 let initialState = {
     forceLeft: 43,  //45 total. 2 are grabbed on init of player objectsß
     player1Turns: [],
@@ -135,7 +137,7 @@ export default function Battlecon() {
                         Next Turn
                     </button>
                     <Timer value={secondsValue} />
-                    <div>Force Left: {state.forceLeft}</div>
+                    <div>Force Pool: {state.forceLeft}</div>
                     <button type="button" onClick={flipCoin}>Flip Coin</button>
                     <button type="button" onClick={switchGraph}>Graph Style</button>
                 </div>
