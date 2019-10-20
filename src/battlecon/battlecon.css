@@ -1,0 +1,83 @@
+.battlecon-container {
+    display: flex;
+    /* border-bottom: 1px solid black */
+}
+
+.player {
+    flex: 1 1 45%;
+    /* border: solid black 1px; */
+    text-align: center;
+}
+
+/* .player.player1 {
+    background-color: lightblue;
+}
+
+.player.player2 {
+    background-color: lightcoral;
+} */
+
+.middle {
+    border: solid black 1px;
+    text-align: center;
+}
+
+
+/* Player */
+.battlecon-container button {
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 1px 1px 3px 1px black;
+}
+
+.battlecon-container button.active {
+    box-shadow: inset 1px 1px 3px 1px black;
+    background: lightblue;
+}
+
+.health {
+    font-size: 2em;
+    margin: 0 20px;
+}
+
+.health.low {
+    color: red;
+}
+
+.health-button {
+    
+}
+
+.health-container {
+    padding: 5px;
+}
+
+.action-container {
+    padding: 5px;
+}
+
+.force {
+    display: block;
+}
+
+.force-button {
+
+}
+
+.force-button.active {
+    
+}
+
+.special-button {
+    width: 120px;
+}
+
+.special-button.finisher {
+    background: brown;
+    color: white;
+}
+
+.special-button.disabled {
+    border-color: lightgray;
+    background: lightgray;
+}
